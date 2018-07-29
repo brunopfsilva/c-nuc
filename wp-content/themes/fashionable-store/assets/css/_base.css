@@ -1,0 +1,135 @@
+/* Main Body */
+/*== Heading (h1-h6) ==*/
+/**== Font families ==*/
+/*== Links ==*/
+/*== Paragraphs ==*/
+/*== Top Bar ==*/
+/*== Navigation ==*/
+/*== Search Overlay ==*/
+/*== Header Contents (Image + Texts) ==*/
+/*== Buttons ==*/
+/*=== Danger Btn ===*/
+/*=== Vivid Btn ===*/
+/*== Extra Elements ==*/
+/*== Blog Items (Listings) ==*/
+/*== Search in widget and search form ==*/
+/*== Widget Area ==*/
+/*== WooCoomerce Loop Items ==*/
+.box-shadow-bottom {
+  -webkit-box-shadow: 0 1px 10px 0 #ebebeb;
+  -moz-box-shadow: 0 1px 10px 0 #ebebeb;
+  box-shadow: 0 1px 10px 0 #ebebeb; }
+
+.link-transition {
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out; }
+
+.center-flex {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+/*= Helpers */
+@media (min-width: 581px) and (max-width: 768px) {
+  .d-flex {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
+@media (min-width: 240px) and (max-width: 580px) {
+  .d-flex {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
+.container-960 {
+  margin: 0 auto;
+  max-width: 960px; }
+
+.container-1080 {
+  margin: 0 auto;
+  max-width: 1080px; }
+
+.container-1200 {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.mb-20 {
+  margin-bottom: 20px; }
+
+.mb-40 {
+  margin-bottom: 40px; }
+
+.mb-60 {
+  margin: 0 0 60px 0; }
+
+.mb-100 {
+  margin-bottom: 100px; }
+
+.mtb-20 {
+  margin: 20px 0; }
+
+.mtb-30 {
+  margin: 30px 0; }
+
+.mtb-100 {
+  margin: 100px 0; }
+
+.mtb-80 {
+  margin: 80px 0; }
+
+.mr-5 {
+  margin-right: 5px; }
+
+.mr-10 {
+  margin-right: 10px; }
+
+.pad-all-10 {
+  padding: 10px; }
+
+.pad-tb-5 {
+  padding: 5px 0; }
+
+.pad-tb-10 {
+  padding: 10px 0; }
+
+.pad-tb-15 {
+  padding: 15px 0; }
+
+.pad-tb-20 {
+  padding: 20px 0; }
+
+.pad-tb-30 {
+  padding: 30px 0; }
+
+.pad-tb-60 {
+  padding: 60px 0; }
+  @media (min-width: 240px) and (max-width: 580px) {
+    .pad-tb-60 {
+      padding: 30px 0; } }
+
+.pad-tb-80 {
+  padding: 80px 0; }
+  @media (min-width: 240px) and (max-width: 580px) {
+    .pad-tb-80 {
+      padding: 30px 0; } }
+
+.pad-lr-15 {
+  padding: 0 15px; }
+  @media (min-width: 581px) and (max-width: 768px) {
+    .pad-lr-15 {
+      padding: 0 0.4rem; } }
+
+.closed {
+  display: none !important; }
+
+.border-radius-3 {
+  border-radius: 3px; }
+
+.border-radius-5 {
+  border-radius: 5px; }

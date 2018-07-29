@@ -1,0 +1,118 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after, #wizard{
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+form.no-safari, .container-coupon-login-form{
+    display:none;
+}
+
+.error-msg{
+    color: #8a1f11;
+}
+
+label.error-class{
+    color: #8a1f11 !important;
+    display: block;
+}
+
+.terms-error{
+    color: #8a1f11 !important;
+    clear: both;
+    display: block;
+}
+
+#s2id_billing_state.invalid-state, #s2id_shipping_state.invalid-state{
+    border: 1px solid #a00 !important;
+}
+
+.wizard > .content > .body input[type="radio"]{
+    display: inline-block
+}
+
+.wizard .coupon-step.current .checkout_coupon{
+    display: block !important
+}
+
+.wmc-loading-img{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: none !important
+}
+
+table.have-thumnails div{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+table.have-thumnails .product-name .wmc-product-img{
+    max-width: 50px;
+    padding-right: 10px;
+}
+
+
+#wizard .checkout_coupon{
+    text-align: center;
+    padding: 34px;
+    max-width: 600px;
+    margin: 30px auto 10px;
+    border: 2px dashed #ddd;
+    border-radius: 0;
+}
+
+#wizard .checkout_coupon .form-row.form-row-last{
+    float: left
+}
+
+#wizard .woocommerce-Button{
+    background: #5d2e78;
+    color:#fff;
+}
+
+.wizard > .actions{
+    clear: both
+}
+
+#wizard .content{    
+    clear: both;
+    box-sizing: border-box
+}
+
+#wizard.vertical .content{    
+    clear: none !important;
+    box-sizing: border-box
+}
+
+@media(max-width: 767px){
+    .wizard.three-steps > .steps > ul > li {
+        width: 100%;
+    }
+
+    .actions.clearfix li {
+        clear: none !important;
+        display: inline-block;
+        float: left;
+    }
+    #wizard .steps ul li{
+        width: 100% !important;
+
+    }
+}
